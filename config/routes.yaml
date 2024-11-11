@@ -1,3 +1,55 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+#customer_list:
+#  path: /api/v1/customers
+#  controller: App\Controller\CustomerController::indexAction
+#  methods: [GET]
+#
+#customer_create:
+#  path: /api/v1/customers
+#  controller: App\Controller\CustomerController::createAction
+#  methods: [POST]
+
+#product_list:
+#  path: /api/v1/products
+#  controller: App\Controller\ProductController::indexAction
+#  methods: [ GET ]
+#
+#product_create:
+#  path: /api/v1/products
+#  controller: App\Controller\ProductController::createAction
+#  methods: [ POST ]
+
+#cart_show:
+#  path: /api/v1/customers/{id}/cart
+#  controller: App\Controller\CartController::showAction
+#  methods: [ GET ]
+#  requirements:
+#    id: '\d+'
+
+#cart_create:
+#  path: /api/v1/customers/cart
+#  controller: App\Controller\CartController::createAction
+#  methods: [ POST ]
+
+#cart_update:
+#  path: /api/v1/customers/{customerId}/cart
+#  controller: App\Controller\CartController::updateAction
+#  methods: [ PATCH ]
+#  requirements:
+#    customerId: '\d+'
+
+#cart_remove:
+#  path: /api/v1/customers/{customerId}/cart/{cartId}
+#  controller: App\Controller\CartController::removeAction
+#  methods: [ DELETE ]
+#  requirements:
+#    customerId: '\d+'
+#    cartId: '\d+'
+
+#admin_customer_statistics:
+#  path: /api/v1/admin/customer/{customerId}/statistics
+#  controller: App\Controller\CustomerStatisticController::indexAction
+#  methods: [ GET ]
